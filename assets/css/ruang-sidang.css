@@ -1,0 +1,10 @@
+.court-header { margin-bottom: 2rem; }
+.court-schedule-list { display: flex; flex-direction: column; gap: 1rem; }
+.schedule-card {
+    background: white; padding: 1.25rem; border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color); display: flex; align-items: center; justify-content: space-between;
+}
+.time-box { background: var(--accent-light); color: var(--primary-color); font-weight: bold; padding: 8px 16px; border-radius: var(--radius-md); }
+.schedule-card h4 { font-size: 1rem; color: var(--text-main); }
+.schedule-card p { font-size: 0.8rem; color: var(--text-muted); }
+.badge-status.upcoming { background: #fef3c7; color: #d97706; padding: 4px 10px; border-radius: 12px; font-size: 0.7rem; font-weight: bold; }

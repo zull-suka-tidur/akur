@@ -1,0 +1,31 @@
+.display-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+.status-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+
+.status-card { background: white; padding: 1.25rem; border-radius: var(--radius-lg); border-top: 4px solid var(--border-color); position: relative; }
+.status-card.border-green { border-top-color: var(--accent-color); }
+.status-card.border-blue { border-top-color: #3b82f6; }
+.status-card.border-orange { border-top-color: #f59e0b; }
+
+.status-badge { position: absolute; top: 12px; right: 12px; font-size: 0.65rem; padding: 2px 6px; border-radius: 10px; }
+.status-badge.active { background: #d1fae5; color: #047857; }
+.status-badge.waiting { background: #f3f4f6; color: #6b7280; }
+
+.stat-num { font-size: 1.5rem; color: var(--primary-color); margin: 4px 0; }
+
+.queue-monitor-section { display: grid; grid-template-columns: 2fr 1fr; gap: 1.5rem; }
+.monitor-left, .monitor-right { background: white; padding: 1.5rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); }
+
+.live-tag { font-size: 0.7rem; color: var(--accent-color); font-weight: bold; }
+.queue-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1rem; }
+.queue-box { background: #f9fafb; padding: 1rem; border-radius: var(--radius-md); border: 1px solid var(--border-color); display: flex; flex-direction: column; gap: 4px; }
+.queue-box.calling { background: #ecfdf5; border-color: var(--accent-color); }
+
+.q-num { font-size: 1.4rem; font-weight: 800; color: var(--primary-color); }
+.q-desc { font-size: 0.8rem; color: var(--text-main); }
+.q-desc span { color: var(--text-muted); font-size: 0.75rem; }
+.q-status { font-size: 0.75rem; font-weight: bold; color: var(--accent-color); }
+.q-status.wait { color: #f59e0b; }
+
+.progress-item { margin-top: 1rem; font-size: 0.8rem; }
+.progress-bar { background: #e5e7eb; height: 8px; border-radius: 4px; overflow: hidden; margin-top: 4px; }
+.progress-bar .fill { background: var(--primary-color); height: 100%; }

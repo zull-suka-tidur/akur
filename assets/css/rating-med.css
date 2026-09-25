@@ -1,0 +1,15 @@
+.rating-container { display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; }
+.rating-info { background: #e6f4ea; padding: 2rem; border-radius: var(--radius-lg); }
+.rating-info h3 { color: var(--primary-color); margin-bottom: 1rem; }
+.info-list { list-style: none; margin-top: 1.5rem; }
+.info-list li { margin-bottom: 1rem; font-size: 0.85rem; color: var(--text-main); display: flex; align-items: center; gap: 10px; }
+
+.rating-form-card { background: white; padding: 2rem; border-radius: var(--radius-lg); border: 1px solid var(--border-color); }
+.form-group { margin-bottom: 1.25rem; }
+.form-group label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 6px; }
+.form-group input, .form-group textarea {
+    width: 100%; padding: 10px; border: 1px solid var(--border-color); border-radius: var(--radius-md); outline: none;
+}
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.star-rating { font-size: 1.8rem; color: #f59e0b; cursor: pointer; display: flex; gap: 6px; }
+.btn-block { width: 100%; padding: 12px; }
