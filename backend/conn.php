@@ -5,7 +5,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 $host = 'localhost';
-$db   = 'l7smart';
+$db   = 'akur';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
