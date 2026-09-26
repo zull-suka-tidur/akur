@@ -1,7 +1,7 @@
-# Pipeline Workflows & Instalasi L7Smart - FH UIN Salatiga
+# Pipeline Workflows & Instalasi AKUR - FH UIN Salatiga
 
 ## Deskripsi System
-L7Smart adalah Portal Layanan Digital Terpadu untuk Fakultas Hukum Universitas Islam Negeri Salatiga. Aplikasi ini mengintegrasikan seluruh manajemen konsultasi, antrean akademik, monitoring ruang sidang semu, e-dokumen, dan laporan administrasi secara terpusat.
+AKUR adalah Portal Layanan Digital Terpadu untuk Fakultas Hukum Universitas Islam Negeri Salatiga. Aplikasi ini mengintegrasikan seluruh manajemen konsultasi, antrean akademik, monitoring ruang sidang semu, e-dokumen, dan laporan administrasi secara terpusat.
 
 ## Spesifikasi Kebutuhan Sistem
 - **PHP**: >= 7.4 / 8.x
@@ -10,10 +10,10 @@ L7Smart adalah Portal Layanan Digital Terpadu untuk Fakultas Hukum Universitas I
 - **Frontend**: Native HTML5, CSS3 Custom Variables, Vanilla JavaScript (ES6)
 
 ## Alur Instalasi
-1. Clone atau tempatkan folder `l7smart` pada directori root web server (misal: `htdocs` atau `/var/www/html/`).
-2. Impor database `l7smart_fh_uinsalatiga` ke dalam MySQL Server Anda.
+1. Clone atau tempatkan folder `AKUR` pada directori root web server (misal: `htdocs` atau `/var/www/html/`).
+2. Impor database `akur_fh_uinsalatiga` ke dalam MySQL Server Anda.
 3. Sesuaikan file `conn.php` untuk credentials database (host, user, password, dbname).
-4. Akses aplikasi melalui browser dengan URL: `http://localhost/l7smart/`.
+4. Akses aplikasi melalui browser dengan URL: `http://localhost/akur/`.
 
 ## Fitur Utama & Struktur Routing
 - `/index.php` -> Dashboard utama dan portal navigasi terpadu.
